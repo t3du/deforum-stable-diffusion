@@ -88,6 +88,11 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
         path_extend = ""
 
     model_map = {
+        "Protogen_infinity.ckpt": {
+            'sha256': 'e4bd9c9c29fa1b8e58f2ac0c503e9305661da0165ac6c11950e8c10e0e83e9c1',
+            'url': "https://huggingface.co/darkstorm2150/Protogen_Infinity_Official_Release/resolve/main/model.ckpt",
+            'requires_login': False,
+        },
         "Protogen_V2.2.ckpt": {
             'sha256': 'bb725eaf2ed90092e68b892a1d6262f538131a7ec6a736e50ae534be6b5bd7b1',
             'url': "https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Protogen_V2.2.ckpt",
