@@ -88,6 +88,11 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
         path_extend = ""
 
     model_map = {
+        "epic-diffusion-v1.1.ckpt": {
+            'sha256': 'ee6266109f4060b9bf134bf670ea75e663ec356352db6140b86828917340b162',
+            'url': "https://huggingface.co/johnslegers/epic-diffusion-v1.1/blob/main/epic-diffusion.ckpt",
+            'requires_login': False,
+        },        
         "Protogen_infinity.ckpt": {
             'sha256': 'e4bd9c9c29fa1b8e58f2ac0c503e9305661da0165ac6c11950e8c10e0e83e9c1',
             'url': "https://huggingface.co/darkstorm2150/Protogen_Infinity_Official_Release/resolve/main/model.ckpt",
