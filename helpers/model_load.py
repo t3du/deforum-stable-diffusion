@@ -88,6 +88,11 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
         path_extend = ""
 
     model_map = {
+         "mistoonAmethyst_v20.safetensors": {
+            'sha256': 'fc896c44f11404efbb59b73bbf08a9265afb7a905104ca9626b92e5998f078d2',
+            'url': "https://civitai.com/api/download/models/56710",
+            'requires_login': False,
+        },
         "Realistic_Vision_V1.4.safetensors": {
             'sha256': '5b2afec3d9527db7f794ec9eab62197a3cc8e6236d40da1dd1647de17c67abf4',
             'url': "https://huggingface.co/SG161222/Realistic_Vision_V1.4/resolve/main/Realistic_Vision_V1.4-pruned-fp16.safetensors",
