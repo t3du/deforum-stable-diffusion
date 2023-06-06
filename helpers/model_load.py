@@ -88,7 +88,7 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
         path_extend = ""
 
     model_map = {
-        "Realistic_Vision_V1.4": {
+        "Realistic_Vision_V1.4.safetensors": {
             'sha256': '5b2afec3d9527db7f794ec9eab62197a3cc8e6236d40da1dd1647de17c67abf4',
             'url': "https://huggingface.co/SG161222/Realistic_Vision_V1.4/resolve/main/Realistic_Vision_V1.4-pruned-fp16.safetensors",
             'requires_login': False,
