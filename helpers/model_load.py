@@ -87,7 +87,12 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
     else:
         path_extend = ""
 
-    model_map = {        
+    model_map = {       
+       "airfucksWildMix_v10.safetensors": {
+            'sha256': '70525c199b353cbe1ee3738079c5322c6bcf33d0d70cbb5ae903960bfefefd42  ',
+            'url': "https://civitai.com/api/download/models/87131",
+            'requires_login': False,
+        },
         "disneyPixarCartoon_v10.safetensors": {
             'sha256': '732d0dd2cf1f0b6d162c41f13c6fa3048e76db47eb9da3fad3c44d4e6f5e5a7d',
             'url': "https://civitai.com/api/download/models/80409",
