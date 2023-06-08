@@ -88,6 +88,11 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
         path_extend = ""
 
     model_map = {       
+        "mistoonAnime_v10.safetensors": {
+            'sha256': 'a49140c6c58b7025f36fd7e206e0aa70f39f24940cd84e4f3589578239305b15',
+            'url': "https://civitai.com/api/download/models/28861",
+            'requires_login': False,
+        },
        "airfucksWildMix_v10.safetensors": {
             'sha256': '70525c199b353cbe1ee3738079c5322c6bcf33d0d70cbb5ae903960bfefefd42',
             'url': "https://civitai.com/api/download/models/87131",
