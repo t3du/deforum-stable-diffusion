@@ -87,7 +87,12 @@ def load_model(root, load_on_run_all=True, check_sha256=True, map_location="cuda
     else:
         path_extend = ""
 
-    model_map = {       
+    model_map = {     
+        "dreamshaperXL10_alpha2Xl10.safetensors": {
+            'sha256': '0f1b80cfe81b9c3bde7fdcbf6898897b2811b27be1df684583c3d85cbc9b1fa4',
+            'url': "https://civitai.com/api/download/models/126688",
+            'requires_login': False,
+        },
         "mistoonAnime_v10.safetensors": {
             'sha256': 'a49140c6c58b7025f36fd7e206e0aa70f39f24940cd84e4f3589578239305b15',
             'url': "https://civitai.com/api/download/models/28861",
